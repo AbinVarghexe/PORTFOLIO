@@ -10,7 +10,7 @@
     width: 28.125rem;
     height: 28.125rem;
     border-radius: 28.125rem;
-    background: #7c66e3;
+    background: rgb(124, 102, 227);
     position: absolute;
     z-index: -1;
     filter: blur(255px);
@@ -75,7 +75,7 @@
     justify-content: center;
     text-align: center;
     border-radius: 0.65rem;
-    border: 1.5px solid #6852ba;
+    border: 1.5px solid rgb(104, 82, 186);
 }
 
 .tech-icon img {
