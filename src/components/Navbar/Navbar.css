@@ -66,8 +66,9 @@
   padding: 0.6rem 0.2rem;
   border: none;
   outline: 1.5px solid transparent;
-  border-radius: 0.2rem;
+  border-radius: .9rem;
   cursor: pointer;
+  padding: 0.5rem 0.9rem;
   transition: all 0.3 ease;
 
 }
