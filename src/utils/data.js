@@ -37,3 +37,27 @@ export const SKILLS = [
     ],
   },
 ];
+
+export const PROJECT = [
+  {
+    title : "Blog App",
+    description : "A simple blog application built",
+    imageUrl : "./profile.jpg",
+    demolink : "www.google.com",
+    link  : "https://github.com/johnDoe/blogApp"
+  },
+  // {
+  //   title : "Blog App",
+  //   description : "A simple blog application built",
+  //   imageUrl : "./profile.jpg",
+  //   demolink : "www.google.com",
+  //   repolink  : "https://github.com/johnDoe/blogApp"
+  // },
+  // {
+  //   title : "Blog App",
+  //   description : "A simple blog application built",
+  //   imageUrl : "./profile.jpg",
+  //   demolink : "www.google.com",
+  //   repolink  : "https://github.com/johnDoe/blogApp"
+  // },
+]
