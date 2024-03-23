@@ -1,21 +1,18 @@
-import React from 'react'
-import './Works.css'
-import { PROJECT } from '../../utils/data'
-import WorkCard from './WorkCard/WorkCard'
+import React from "react";
+import "./Works.css";
+import WorkCard from "./WorkCards/WorkCard";
 
-
-const works = () => {
+const Works = () => {
   return (
-    <section className="experience-container">
-    <h5>PROJECTS</h5>
-    <div className="experience-content">
-        {PROJECT.map((item) =>(
-            <WorkCard key={item.title} details={item}/>
-        ))}
-    </div>
-  </section>
-  
-  )
-}
+    <section className="work">
+      <h1>PROJECTS</h1>
+      <div className="landing-page-container">
+        <WorkCard />
+        <WorkCard />
+        <WorkCard />
+      </div>
+    </section>
+  );
+};
 
-export default works
+export default Works;
