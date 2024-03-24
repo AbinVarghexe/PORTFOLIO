@@ -33,7 +33,7 @@ const ShowCase = () => {
   };
 
   return (
-    <section className="portfolio" data-page="portfolio">
+    <section id='projects' className="portfolio" data-page="portfolio">
       <header>
         <h2 className="h2 article-title">PROJECTS</h2>
       </header>

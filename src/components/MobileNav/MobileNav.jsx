@@ -1,44 +1,43 @@
-import React from 'react'
-import './MobileNav.css'
-
-
+import React from "react";
+import { Link } from 'react-scroll';
+import "./MobileNav.css";
+const handleMailClick = () => {
+  // Open the default mail client with the specified email address
+  window.open('mailto:abinvarghese092005@gmail.com');
+};
 const MobileNav = ({ isOpen, toggleMenu }) => {
-
-  
- return (
+  return (
     <>
-       <div
+      <div
         className={`mobile-menu ${isOpen ? "active" : ""}`}
         onClick={toggleMenu}
-        >
-         <div className="mobile-menu-container">
-          <h2 className="logo" alt="" >LOGO.</h2>
+      >
+        <div className="mobile-menu-container">
+          <h2 className="logo" alt="">
+            LOGO.
+          </h2>
           <ul>
-            <li>
-               <a className="menu-item">Home</a>
-            </li>
-            <li>
-              <a className="menu-item">Skills</a>
-           </li>
-           <li>
-              <a className="menu-item">Projects</a>
-           </li>
-           <li>
-                <a className="menu-item">Contact </a>
-            </li>
-            
-            
-            <button className= "contact-btn" onClick={() => {}}>
-                 Hire Me
+          <li>
+                            <Link className="menu-item" to="home" smooth={true} duration={500}>Home</Link>
+                        </li>
+                        <li>
+                            <Link className="menu-item" to="skills" smooth={true} duration={500}>Skills</Link>
+                        </li>
+                        <li>
+                            <Link className="menu-item" to="projects" smooth={true} duration={500}>Projects</Link>
+                        </li>
+                        <li>
+                            <Link className="menu-item" to="contact" smooth={true} duration={500}>Contact</Link>
+                        </li>
+
+            <button className="contact-btn" onClick={handleMailClick}>
+              Hire Me
             </button>
-             
           </ul>
-      
+        </div>
       </div>
-      </div>
-     </>
-);
+    </>
+  );
 };
 
-
-export default MobileNav
+export default MobileNav;
