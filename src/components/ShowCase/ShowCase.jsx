@@ -35,7 +35,7 @@ const ShowCase = () => {
   return (
     <section className="portfolio" data-page="portfolio">
       <header>
-        <h2 className="h2 article-title">Portfolio</h2>
+        <h2 className="h2 article-title">PROJECTS</h2>
       </header>
 
       {/* Filter buttons */}
@@ -63,7 +63,7 @@ const ShowCase = () => {
               data-category={project.category}
               key={project.id}
             >
-              <a href="#">
+              <a href={project.link} target="_blank">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     <FaEye />

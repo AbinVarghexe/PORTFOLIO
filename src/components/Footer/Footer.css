@@ -1,0 +1,49 @@
+.footer {
+    
+    padding: 50px 0;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+
+.footer .infoText {
+    font-size: 15px;
+    opacity: 0.75;
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* @include md for .infoText not converted, requires manual media query */
+.footer .socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.footer .socialIcons .icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 15%;
+    font-size: 20px;
+    color: #ffffff;
+    background: #130f2a;
+    border-radius: 0.6rem;
+    border: 1.5px solid #6751b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    margin-bottom: 20px;
+}
+
+.footer .socialIcons .icon:hover {
+    border: 1.5px solid #6751b9;
+    transform: scale(1.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.653);
+}

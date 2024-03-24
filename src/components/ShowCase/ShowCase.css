@@ -54,7 +54,7 @@
   }
 
   .select-list {
-    background: var(--eerie-black-2);
+    background: red;
     position: absolute;
     top: calc(100% + 6px);
     width: 100%;
@@ -256,7 +256,7 @@
     }
 
     .article-title {
-      padding-bottom: 20px;
+      padding-bottom: 50px;
     }
 
     .filter-select-box {
@@ -279,7 +279,7 @@
       display: inline-block;
       font-size: .9rem;
       font-weight: 400;
-      box-shadow: 0 0 10px 3px rgba(103, 81, 185, 0.5);
+      /* box-shadow: 0 0 10px 3px rgba(103, 81, 185, 0.5); */
       border: 2px solid #6751b9;
       border-radius: 0.6rem;
       padding: 0.4rem 0.6rem;
@@ -289,6 +289,7 @@
     .filter-item button:hover {
       color: white;
       border: 2px solid white;
+      box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
     }
 
     .filter-item button.active {
@@ -320,7 +321,7 @@
 
 
     .article-title {
-      padding-bottom: 20px;
+      padding-bottom: 50px;
     }
 
     .filter-select-box {

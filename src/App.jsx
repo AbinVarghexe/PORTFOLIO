@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import Skills from './components/Skills/Skills';
 import ShowCase from './components/ShowCase/ShowCase';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Skills />
         <ShowCase />
         <Contact />
+        <Footer />
       </div>
     </>
   );
