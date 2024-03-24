@@ -3,7 +3,8 @@
       "id": 1,
       "title": "Finance",
       "category": "Web development",
-      "image": "https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg"
+      "image": "https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg",
+      "link":"https://abinflix.vercel.app/"
     },
     {
       "id": 2,
