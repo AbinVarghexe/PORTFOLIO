@@ -1,15 +1,20 @@
 import React from 'react'
 import './Hero.css'
+import { Link } from 'react-scroll';
 
 const Hero = () => {
+
   return (
     <section id='home' className="hero-container">
     <div className="hero-content">
-    <h2>Building Digital Experiences That Inspire</h2>
+    <h2>I'AM ABIN VARGHESE</h2>
      <p>
-      Passionate Frontend Developer I Transforming Ideas into Seamless and
-      Visually Stunning Web Solutions
+      Passionate Frontend Developer
     </p>
+    <div className="btns">
+    <a href="./doc/Abin-Varghese.pdf" className='resume' download>Resume</a>
+    <Link className="Contact" to="contact" smooth={true} duration={500}>Contact Me</Link>
+    </div>
   </div>
   <div className="hero-img">
     <div>
@@ -20,13 +25,13 @@ const Hero = () => {
     </div>
     <div>
         <div className="tech-icon">
-            <img src ="./element-icon/html.svg"/>
+            <img src ="./element-icon/html.svg" alt="html icon"/>
         </div>
         <div className="tech-icon">
-            <img src ="./element-icon/tail.svg"/>
+            <img src ="./element-icon/tail.svg" alt="tailwind icon"/>
         </div>
         <div className="tech-icon">
-            <img src ="./element-icon/css.svg"/>
+            <img src ="./element-icon/css.svg" alt="css icon"/>
         </div>
     </div>
   </div>
