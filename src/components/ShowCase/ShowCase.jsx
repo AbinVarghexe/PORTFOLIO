@@ -1,5 +1,6 @@
 import  { useState, useEffect } from 'react';
 import './ShowCase.css'
+import { FaEye } from "react-icons/fa";
 
 const ShowCase = () => {
   // State to store project data and filtered projects
@@ -11,7 +12,7 @@ const ShowCase = () => {
 
   // Load project data from projects.json
   useEffect(() => {
-    fetch('./project.json')
+    fetch('./data/project.json')
       .then(response => response.json())
       .then(data => {
         setProjects(data);
@@ -65,7 +66,7 @@ const ShowCase = () => {
               <a href="#">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
-                    hello
+                    <FaEye />
                   </div>
                   <img src={project.image} alt={project.title} loading="lazy" />
                 </figure>

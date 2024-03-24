@@ -14,19 +14,19 @@ const Hero = () => {
   <div className="hero-img">
     <div>
       <div className="tech-icon">
-        <img src="./img1.png" alt="" />
+        <img src="./element-icon/img1.png" alt="" />
       </div>
-      <img src="./profile.jpg" alt="" />
+      <img src="./main-img/profile.jpg" alt="" />
     </div>
     <div>
         <div className="tech-icon">
-            <img src ="./html.svg"/>
+            <img src ="./element-icon/html.svg"/>
         </div>
         <div className="tech-icon">
-            <img src ="./tail.svg"/>
+            <img src ="./element-icon/tail.svg"/>
         </div>
         <div className="tech-icon">
-            <img src ="./css.svg"/>
+            <img src ="./element-icon/css.svg"/>
         </div>
     </div>
   </div>
