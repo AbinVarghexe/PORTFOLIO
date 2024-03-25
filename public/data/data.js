@@ -37,3 +37,52 @@ export const SKILLS = [
     ],
   },
 ];
+
+export const EDUCATION = [
+                                
+   {
+     title: "Senior Frontend Developer at Tech Innovators",
+     date: "January 2022 - Present",
+     responsibilities: [
+       "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
+      "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+      "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
+       "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
+     },
+     {
+      title: "Senior Frontend Developer at Tech Innovators",
+      date: "January 2022 - Present",
+      responsibilities: [
+        "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
+       "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+       "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
+        "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
+      },
+     {
+      title: "Senior Frontend Developer at Tech Innovators",
+      date: "January 2022 - Present",
+      responsibilities: [
+        "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
+       "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+       "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
+        "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
+      },
+     {
+      title: "Senior Frontend Developer at Tech Innovators",
+      date: "January 2022 - Present",
+      responsibilities: [
+        "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
+       "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+       "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
+        "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
+      },
+     {
+      title: "Senior Frontend Developer at Tech Innovators",
+      date: "January 2022 - Present",
+      responsibilities: [
+        "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
+       "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+       "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
+        "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
+      },
+     ]

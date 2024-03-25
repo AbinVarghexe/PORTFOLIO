@@ -1,10 +1,15 @@
 import React from "react";
-import { Link } from "react-scroll";
 import "./MobileNav.css";
 const handleMailClick = () => {
   // Open the default mail client with the specified email address
   window.open("mailto:abinvarghese092005@gmail.com");
 };
+
+ const handleLinkClick = () => {
+  // Close the menu after a link is clicked
+  toggleMenu();
+ };
+
 const MobileNav = ({ isOpen, toggleMenu }) => {
   return (
     <>
@@ -18,45 +23,45 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
           </h2>
           <ul>
             <li>
-              <Link
+              <a
                 className="menu-item"
-                to="home"
-                smooth={true}
-                duration={500}
+                href="#home"
+                onClick={handleLinkClick}
               >
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
+              <a
                 className="menu-item"
-                to="skills"
-                smooth={true}
-                duration={500}
+                href="#skills"
+                onClick={handleLinkClick}
               >
                 Skills
-              </Link>
+              </a>
             </li>
+
             <li>
-              <Link
+              <a
                 className="menu-item"
-                to="projects"
-                smooth={true}
-                duration={500}
+                href="#education"
+                onClick={handleLinkClick}
+              >
+                Education
+              </a>
+            </li>
+
+
+            <li>
+              <a
+                className="menu-item"
+                href="#projects"
+                
               >
                 Projects
-              </Link>
+              </a>
             </li>
-            <li>
-              <Link
-                className="menu-item"
-                to="contact"
-                smooth={true}
-                duration={500}
-              >
-                Contact
-              </Link>
-            </li>
+            
 
             <button className="contact-btn" onClick={handleMailClick}>
               Hire Me
