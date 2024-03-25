@@ -63,11 +63,11 @@ const ShowCase = () => {
               data-category={project.category}
               key={project.id}
             >
-              <a href={project.link} target="_blank">
+              <a>
                 <figure className="project-img">
-                  <div className="project-item-icon-box">
+                  <a href={project.link} target="_blank" className="project-item-icon-box">
                     <FaEye />
-                  </div>
+                  </a>
                   <img src={project.image} alt={project.title} loading="lazy" />
                 </figure>
                 <h3 className="project-title">{project.title}</h3>

@@ -41,48 +41,31 @@ export const SKILLS = [
 export const EDUCATION = [
                                 
    {
-     title: "Senior Frontend Developer at Tech Innovators",
-     date: "January 2022 - Present",
+     title: "Bachelor's degree",
+     date: "September 2023 - Present",
      responsibilities: [
-       "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
-      "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
-      "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
-       "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
+       "Doing my bachelors degree in Computer Science and Engineering",
+      "Amal Jyothi College of Engineering,Kanjirappally",
+      "Kerala,India,PIN 686518",
+       ],
      },
      {
-      title: "Senior Frontend Developer at Tech Innovators",
-      date: "January 2022 - Present",
+      title: "Higher Secondary",
+      date: "June 2021 - March 2023",
       responsibilities: [
-        "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
-       "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
-       "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
-        "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
+        "Electronic Science",
+        "St. George's Higher Secondary School,Muthalakodam",
+        "94.5% | STATE BOARD | 2023",
+       ],
       },
      {
-      title: "Senior Frontend Developer at Tech Innovators",
-      date: "January 2022 - Present",
+      title: "High School",
+      date: "June 2011 - March 2021",
       responsibilities: [
-        "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
-       "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
-       "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
-        "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
+        "Sanjo CMI Public School Koduvely",
+        " Thodupuzha PIN 686518",
+        "84% | CBSE | 2021"
+         ],
       },
-     {
-      title: "Senior Frontend Developer at Tech Innovators",
-      date: "January 2022 - Present",
-      responsibilities: [
-        "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
-       "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
-       "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
-        "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
-      },
-     {
-      title: "Senior Frontend Developer at Tech Innovators",
-      date: "January 2022 - Present",
-      responsibilities: [
-        "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
-       "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
-       "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
-        "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.", ],
-      },
+     
      ]
