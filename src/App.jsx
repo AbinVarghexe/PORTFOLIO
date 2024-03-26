@@ -7,6 +7,7 @@ import ShowCase from './components/ShowCase/ShowCase';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Education from './components/Education/Education';
+import { Fade } from "react-awesome-reveal";
 
 const App = () => {
   return (
@@ -15,9 +16,15 @@ const App = () => {
       <div className="container">
         <Hero />
         <Skills />
+        <Fade direction='up'delay={650} triggerOnce= {true} duration={900}>
         <Education />
+        </Fade>
+        <Fade direction='up'delay={750} triggerOnce= {true} duration={1000}>
         <ShowCase />
+        </Fade>
+        <Fade direction='up'delay={650} triggerOnce= {true} duration={900}>
         <Contact />
+        </Fade>
       </div>
       <Footer />
     </>

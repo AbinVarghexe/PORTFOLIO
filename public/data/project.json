@@ -3,25 +3,25 @@
       "id": 1,
       "title": "ABINFLIX",
       "category": "Web development",
-      "image": "https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg",
+      "image": "./mockups/website mockup.jpg",
       "link":"https://abinflix.vercel.app/"
     },
     {
       "id": 2,
-      "title": "Orizon",
-      "category": "Web development",
-      "image": "https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg"
+      "title": "NOT FOUND",
+      "category": "Not found",
+      "image": "./mockups/Vmake-1711486407(4).jpeg"
     },
     {
       "id": 3,
-      "title": "Fundo",
-      "category": "Web design",
-      "image": "https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg"
+      "title": "NOT FOUND",
+      "category": "Not found",
+      "image": "./mockups/Vmake-1711486407(4).jpeg"
     },
     {
       "id": 4,
-      "title": "Brawlhalla",
-      "category": "Applications",
-      "image": "https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg"
+      "title": "NOT FOUND",
+      "category": "Not found",
+      "image": "./mockups/Vmake-1711486407(4).jpeg"
     }
 ]

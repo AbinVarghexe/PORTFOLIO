@@ -3,6 +3,7 @@ import "./Skills.css";
 import { SKILLS } from "../../../public/data/data";
 import SkillCard from "./SkillCard/SkillCard";
 import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
+import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
@@ -13,7 +14,10 @@ const Skills = () => {
 
   return (
     <section id='skills' className="skills-container">
+      <Fade direction='up'delay={450} triggerOnce= {true} duration={750}>
       <h5>Technical Proficiency</h5>
+      </Fade>
+      <Fade direction='up'delay={650} triggerOnce= {true} duration={900}>
       <div className="skills-content">
         <div className="skills">
           {SKILLS.map((item) => (
@@ -34,6 +38,8 @@ const Skills = () => {
           />
         </div>
       </div>
+      </Fade>
+    
     </section>
   );
 };
