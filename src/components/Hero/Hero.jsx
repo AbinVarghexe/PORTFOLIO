@@ -31,30 +31,7 @@ const Hero = () => {
   <Fade direction='up'delay={650} triggerOnce= {true} duration={1000}>
   <div className="hero-img">
     <div>
-      <div className="tech-icon">
-      <Fade direction='up'delay={650} triggerOnce= {true} duration={900}>
-        <img src="./element-icon/img1.png" alt="" />
-        </Fade>
-      </div>
       <img src="./main-img/profile.jpg" alt="" />
-    </div>
-
-    <div>
-    <Fade direction='up'delay={650} triggerOnce= {true} duration={900}>
-        <div className="tech-icon">
-            <img src ="./element-icon/html.svg" alt="html icon"/>
-        </div>
-        </Fade>
-        <Fade direction='up'delay={650} triggerOnce= {true} duration={900}>
-        <div className="tech-icon">
-            <img src ="./element-icon/tail.svg" alt="tailwind icon"/>
-        </div>
-        </Fade>
-        <Fade direction='up'delay={650} triggerOnce= {true} duration={900}>
-        <div className="tech-icon">
-            <img src ="./element-icon/css.svg" alt="css icon"/>
-        </div>
-        </Fade>
     </div>
   </div>
   </Fade>

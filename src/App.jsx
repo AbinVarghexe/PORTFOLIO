@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Education from './components/Education/Education';
 import { Fade } from "react-awesome-reveal";
+import Tool from './components/Tool/Tool';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar />
       <div className="container">
         <Hero />
+        <Tool />
         <Skills />
         <Fade direction='up'delay={650} triggerOnce= {true} duration={900}>
         <Education />
