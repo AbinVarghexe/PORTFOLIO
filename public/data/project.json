@@ -1,27 +1,28 @@
 [
-    {
-      "id": 1,
-      "title": "ABINFLIX",
-      "category": "Web development",
-      "image": "./mockups/website mockup.jpg",
-      "link":"https://abinflix.vercel.app/"
-    },
-    {
-      "id": 2,
-      "title": "NOT FOUND",
-      "category": "Not found",
-      "image": "./mockups/Vmake-1711486407(4).jpeg"
-    },
-    {
-      "id": 3,
-      "title": "NOT FOUND",
-      "category": "Not found",
-      "image": "./mockups/Vmake-1711486407(4).jpeg"
-    },
-    {
-      "id": 4,
-      "title": "NOT FOUND",
-      "category": "Not found",
-      "image": "./mockups/Vmake-1711486407(4).jpeg"
-    }
+  {
+    "id": 1,
+    "title": "ABINFLIX",
+    "category": "Web development",
+    "image": "./mockups/website mockup.jpg",
+    "link": "https://abinflix.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "InternHub",
+    "category": "Web development",
+    "image": "./mockups/InternHUb.jpg",
+    "link": "https://internhubajce.in/"
+  },
+  {
+    "id": 3,
+    "title": "NOT FOUND",
+    "category": "Not found",
+    "image": "./mockups/Vmake-1711486407(4).jpeg"
+  },
+  {
+    "id": 4,
+    "title": "NOT FOUND",
+    "category": "Not found",
+    "image": "./mockups/Vmake-1711486407(4).jpeg"
+  }
 ]
