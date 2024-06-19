@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="https://github.com/ABIN-VARGHEXE" target="_blank"  className="icon">
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/abinvarghese_____" target="_blank" className="icon">
+        <a href="https://www.instagram.com/abin_varghese._/" target="_blank" className="icon">
           <FaInstagram />
         </a>
         <a href="mailto:abinvarghese092005@gmail.com"  className="icon">
