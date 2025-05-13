@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="socialIcons">
-        <a href="https://github.com/ABIN-VARGHEXE" target="_blank"  className="icon">
+        <a href="https://github.com/AbinVarghexe" target="_blank"  className="icon">
           <FaGithub />
         </a>
         <a href="https://www.instagram.com/abin_varghese._/" target="_blank" className="icon">
